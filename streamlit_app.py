@@ -21,7 +21,7 @@ def run_query(query):
     rows = [dict(row) for row in rows_raw]
     return rows
 
-rows = run_query("SELECT * FROM `CombinedPredictionsUpdated` LIMIT 10")
+rows = run_query("SELECT * FROM `ahr` LIMIT 10")
 
 # Print results.
 st.write("Some wise words from Shakespeare:")
