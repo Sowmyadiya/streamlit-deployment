@@ -2,7 +2,7 @@
 # streamlit_app.py
 
 import streamlit as st
-from google.oauth2 import service_account
+from google.oauth2 import service_acc
 from google.cloud import bigquery
 
 # Create API client.
